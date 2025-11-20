@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 
 ser = serial.Serial("/dev/ttyUSB0", 9600)
 ser.reset_input_buffer()
-BASE_ORIGIN = 'http://34.126.134.54:8000/'
+BASE_ORIGIN = 'http://34.126.134.54:8080/'
 # BASE_ORIGIN = 'https://5902-2402-800-6294-3859-5d99-a7bc-54e3-626f.ngrok-free.app/'
 DETECTION_URL = f'{BASE_ORIGIN}api/v1/instance-segmentation/client'
 # Khởi tạo camera

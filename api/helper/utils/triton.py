@@ -17,7 +17,7 @@ class TritonRemoteModel:
     def __init__(self, url: str):
         """
         Keyword arguments:
-        url: Fully qualified address of the Triton server - for e.g. grpc://localhost:8000
+        url: Fully qualified address of the Triton server - for e.g. grpc://localhost:8080
         """
 
         parsed_url = urlparse(url)
